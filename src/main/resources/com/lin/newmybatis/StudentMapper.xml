@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aowin.dao.EmpMapper">
+    <insert id="insert" parameterType="com.lin.model.Student">
+        insert into student (student_id,student_name,student_age,student_sex)
+        values('09' , '赵云' , '1990-01-01' , '男')
+    </insert>
+
+
+<!--    <insert id="insertOracleUser" parameterType="com.aowin.model.Person" flushCache="true">
+        <selectKey order="BEFORE" resultType="java.lang.Integer" keyProperty="id">
+            select personidseq.nextval from dual
+        </selectKey>
+        insert into person (id,name,sex,department,salary)
+        values (#{id},#{name},#{sex},#{depart},#{salary})
+    </insert>
+    &lt;!&ndash;调用存储函数，更新指定id账户的姓名  &ndash;&gt;
+    <update id="uptName" parameterType="java.util.Map" statementType="CALLABLE">
+		{call personupdate(#{id,mode=INOUT,jdbcType=NUMERIC},#{name,mode=IN,jdbcType=VARCHAR,javaType=java.lang.String})}
+	</update>
+    &lt;!&ndash;oracle数据库  查询账户信息  &ndash;&gt;
+    <select id="selectOraUser" parameterType="java.lang.Integer" resultType="com.aowin.model.Person">
+        select * from person
+        <where>
+            <if test="id!=null">
+                and id>#{id}
+            </if>
+        </where>
+    </select>-->
+</mapper>
