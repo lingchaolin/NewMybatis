@@ -2,6 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d554b75-ae94-4876-9582-21ee0d62e6ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewMybatis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitpust.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/service-jkf.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/service-jkf.log.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/service-jkf.log.2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/service-jkf.log.3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/service-jkf.log.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/service-jkf.log.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/service-jkf.log.6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/service-jkf.log.7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lin/dao/CourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lin/dao/ScoreMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lin/dao/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lin/dao/TeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lin/model/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lin/model/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lin/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lin/model/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lin/util/Dbutil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lin/newmybatis/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lin/newmybatis/ScoreMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lin/newmybatis/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/lin/newmybatis/TeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sql_record/sql.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lin/StudentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../base/common-core/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../base/common-core/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../base/common-core/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../../base/common-core/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../busi/service-jkf/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../busi/service-jkf/.classpath" afterDir="false" />
@@ -128,6 +164,9 @@
       <dir>D:\Intellij\busi\service-jkf</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -159,12 +198,13 @@
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -318,7 +358,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553075064375" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553075698945" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
@@ -482,18 +522,18 @@
       <workItem from="1553064568101" duration="855000" />
       <workItem from="1553065470407" duration="250000" />
       <workItem from="1553065766112" duration="464000" />
-      <workItem from="1553066263705" duration="8494000" />
+      <workItem from="1553066263705" duration="9121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22175000" />
+    <option name="totallyTimeSpent" value="22802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -523,7 +563,7 @@
       <window_info anchor="bottom" id="Spring" order="17" />
       <window_info anchor="bottom" id="Java Enterprise" order="18" />
       <window_info anchor="bottom" id="Messages" order="19" sideWeight="0.49848714" weight="0.3289689" />
-      <window_info anchor="bottom" id="JRebel Executor" order="20" sideWeight="0.4969743" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="JRebel Executor" order="20" sideWeight="0.4969743" weight="0.3289689" />
       <window_info anchor="bottom" id="JRebel Console" order="21" sideWeight="0.5030257" side_tool="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
