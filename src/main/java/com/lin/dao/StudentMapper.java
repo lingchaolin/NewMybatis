@@ -1,8 +1,6 @@
 package com.lin.dao;
 
 import com.lin.model.Student;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
 import java.util.Map;
 
@@ -15,7 +13,7 @@ public interface StudentMapper {
 
     void delete(Map map);//k-v:参数名及对应的值
 
-    void update(@Param("studentId") String studentId, @Param("studentName") String studentName );//注解传参，相当于map的键值对
+//    void update(@Param("studentId") String studentId, @Param("studentName") String studentName );//注解传参，相当于map的键值对
 
     Student select(String studentId);//字符串传参，返回值为实体类型
 
