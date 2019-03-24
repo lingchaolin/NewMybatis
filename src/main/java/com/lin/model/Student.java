@@ -11,6 +11,16 @@ public class Student {
 
     private String studentSex;
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "studentId='" + studentId + '\'' +
+                ", studentName='" + studentName + '\'' +
+                ", studentAge=" + studentAge +
+                ", studentSex='" + studentSex + '\'' +
+                '}';
+    }
+
     public String getStudentId() {
         return studentId;
     }

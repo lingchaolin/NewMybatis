@@ -15,7 +15,7 @@ public class Dbutil {
         Resources.setCharset(Charset.forName("utf-8"));
         InputStream inputStream;
         try {
-            inputStream=Resources.getResourceAsStream("Mybatis.xml");
+            inputStream=Resources.getResourceAsStream("mybatis.xml");
             sqlSessionFactory=new SqlSessionFactoryBuilder().build(inputStream);
         } catch (IOException e) {
             e.printStackTrace();
